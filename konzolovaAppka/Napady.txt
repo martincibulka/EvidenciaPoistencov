@@ -1,0 +1,2 @@
+1. upraviť vyhľadávanie tak by ignorovalo diakritiku
+2. pridať externé úložisko poistencov (možno db)
