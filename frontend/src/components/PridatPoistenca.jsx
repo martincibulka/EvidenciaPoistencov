@@ -1,3 +1,5 @@
+//Vrchná časť pre pridávanie nových poistencov
+
 import { useState } from "react";
 
 export default function PridatPoistenca({ pridatPoistenca }) {
@@ -57,7 +59,7 @@ export default function PridatPoistenca({ pridatPoistenca }) {
             onChange={(e) => {
               const value = e.target.value;
               // kontrola aby bolo možné vložiť len čísla
-              if (/^\d*$/.test(value)) {
+              if (/^\d*$/.test(value)) {  //test je metoda ktorá kontroluje regulérnosť výrazu
                 setTelefon(value);
               }
             }}
